@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>desarrolloweb</title>
+	<link rel="stylesheet" type="text/css" href="diseño.css">
+</head>
+<body>
+<h1>nuestros Clientes Estan Contntos</h1>
+
+<header>
+	<nav>
+		<ul>
+			<li> <a href="index.html"> Inicio</a></li>
+			<li> <a href="nuestrostrabajos.html">Lo que te podemos ofrecer</a> </li>
+		</ul>
+	</nav>
+</header>
+<p>realizamos tu pagina web donde podes elegir si la manejas vos o la manejamos nostros</p>
+<p>si la manejamos nostros: realizamos las actializaciones y ponemos en estock tu mercaderia 
+o cargamos toda tu informacion</p>
+
+
+<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Nombre:</label><br />
+    <input id="name" class="input" name="Nombre" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Tu email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Tu mensaje:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+</body>
+</html>
